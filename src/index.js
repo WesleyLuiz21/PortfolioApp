@@ -26,7 +26,7 @@ class App extends React.Component {
           <Sidebar />
           <Navbar />
           <Routes>
-             <Route path='/PortfolioApp' element={<MainPage/>}/>
+             <Route path='/PortfolioApp/' element={<MainPage/>}/>
              <Route path='/skills' element={<Skills />}/>
              <Route path='/education' element={<Education />}/>
              <Route path='/goals' element={<Goals />}/>
