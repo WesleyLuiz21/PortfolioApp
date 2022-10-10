@@ -1,0 +1,105 @@
+.side-bar {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   width: 5.9rem;
+   top: 0;
+   left: 0;
+   background-color: red;
+   height: 100%;
+   z-index: 10;
+   box-shadow: 1px 8px 2px black;
+   -webkit-transition: 300ms;
+   -o-transition: 300ms;
+   transition: 300ms;
+   white-space: nowrap;
+   overflow-x: hidden;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+      overflow-y: hidden;
+}
+.mobile::-webkit-scrollbar {
+  display: none;
+}
+.nav-mobile {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 90px;
+    background-color: red;
+    z-index: 7;
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+.nav-content {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+}
+.mobile {
+   width: 15.3rem;
+   z-index: 9;
+}
+.side-bar a {
+   padding: 15px 15px 15px 32px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  display: block;
+}
+ .material-icons {
+  font-size: 35px;
+ }
+ .material-icons,
+ .icon-text {
+  vertical-align: middle;
+ }   
+.material-icons {
+   padding-bottom: 3px;
+   margin-right: 30px;
+ }
+ #nav1 {
+   margin-top: 10px;
+}
+#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover, #nav5:hover, #nav6:hover, #nav7:hover, #nav8:hover, #nav9:hover, #nav10:hover{
+  background-color: white;
+  -webkit-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+  color: rgb(10, 21, 39) !important;
+}
+#nav10 {
+  margin-bottom: 10px;
+}
+.nav-div {
+  white-space: nowrap;
+  overflow-x: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+    @media (max-width:1300px) {
+.nav-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+ } 
+}
+  

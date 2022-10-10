@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+
+header {
+    width: 100%;
+    height: 100px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+}
+nav {
+    width: 80%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+ul li {
+    list-style: none;
+    margin-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+}
+nav ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+}
+#name-mobi {
+    display: block;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    position: relative;
+    top: 5px;
+    border: none;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+#myname{
+    font-family: 'raleway';
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.email {
+    font-size: 1.3rem;
+}
+#bar{
+    height: 33px;
+    width: 2px;
+    background-color: white;
+}
+a , li {
+    font-family: 'roboto';
+}
+.icons {
+    margin-right: 0.3rem ;
+    position: relative;
+    bottom: 3px;
+}
+.contact-btn  {
+   padding: 13px 20px;
+   border-radius: 5rem;
+   border: none;
+   cursor: pointer;
+}
+.contact-btn > a{
+    display: block;
+    border: none;
+    color: black;
+   
+}
+.londonframe {
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.email:hover {
+    color: rgb(54, 161, 228);
+}
+@media (max-width:1300px) {
+    header {
+        display: none !important;
+    }
+}
+
