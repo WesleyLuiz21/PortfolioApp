@@ -38,7 +38,7 @@ class Skills extends React.Component {
                      <p>As result of these skills, today I am a  creative and proactive person, willing to find solutions to all kinds of issues.</p>
                      <div className="flex">
                          <a href="/#" className="redbtn flex">Download CV <BiRightArrowAlt className='aicon'/></a>
-                         <a href="https://github.com/WesleyLuiz21" target='_blank' className="whitebtn flex">Github <BiRightArrowAlt className='aicon'/></a>
+                         <a href="https://github.com/WesleyLuiz21" target='_blank' rel="noreferrer gi"className="whitebtn flex">Github <BiRightArrowAlt className='aicon'/></a>
                      </div>
                    </div>
                    </motion.div>
