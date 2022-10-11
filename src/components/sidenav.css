@@ -8,7 +8,6 @@
    background-color: red;
    height: 100%;
    z-index: 10;
-   box-shadow: 1px 8px 2px black;
    -webkit-transition: 300ms;
    -o-transition: 300ms;
    transition: 300ms;
