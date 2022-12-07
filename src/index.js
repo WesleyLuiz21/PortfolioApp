@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-import {  BrowserRouter, Route, Routes} from 'react-router-dom';
+import {  BrowserRouter, Route, Routes, HashRouter} from 'react-router-dom';
 import { AnimatePresence } from "framer-motion";
 
 import Navbar from './components/Navbar';
