@@ -466,6 +466,10 @@ p {
   }
   .main-container {
     width: 90%;
+    padding-bottom: 4rem;
+  }
+  .illus-img {
+    padding-top: 1rem;
   }
 }
 
