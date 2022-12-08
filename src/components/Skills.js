@@ -37,7 +37,7 @@ class Skills extends React.Component {
                      <p>Since I was infant I always loved computers and technology in general, I have been introduced to this  technologycal world when I was 7 years old and since then I developed a great passion in anything involving software and computing. Through my life I manage to get skills and knowledge from art and design to troubleshooting  and programming.</p>
                      <p>As result of these skills, today I am a  creative and proactive person, willing to find solutions to all kinds of issues.</p>
                      <div className="flex">
-                         <a href="/#" className="redbtn flex">Download CV <BiRightArrowAlt className='aicon'/></a>
+                         <a href="https://drive.google.com/u/0/uc?id=1cdhKdBdtSicU5rmmVWuIaOTPMZ2gOYQf&export=download" className="redbtn flex">Download CV <BiRightArrowAlt className='aicon'/></a>
                          <a href="https://github.com/WesleyLuiz21" target='_blank' rel="noreferrer gi"className="whitebtn flex">Github <BiRightArrowAlt className='aicon'/></a>
                      </div>
                    </div>
