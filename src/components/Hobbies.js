@@ -30,7 +30,7 @@ class Hobbies extends React.Component {
                      <p>Currently I speak English, Portuguese, Spanish and I am looking forward to learning Italian.</p>
                      <div className="flex">
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
-                      <a href="https://www.artstation.com/azurex" target='_blank' rel="noreferrer" className="redbtn flex">Artstation <BiRightArrowAlt className='aicon'/></a>
+                      <a href="https://www.artstation.com/wesley-souza" target='_blank' rel="noreferrer" className="redbtn flex">Artstation <BiRightArrowAlt className='aicon'/></a>
                      </motion.div>
                      </div>
                    </div>
