@@ -140,7 +140,7 @@ p {
 }
 .illus-img {
   margin-top: 10px;
-  width: 50rem;
+  width: 40rem;
 }
 .newcontainer {
   position: fixed; 
@@ -268,31 +268,14 @@ p {
   border-color: white;
   transition: 500ms;
 }
-.whitebtn:hover  {
-  border-color: red;
-  color: red;
-  transition: 500ms;
-  
-}
+
 .redbtn:hover  svg, .whitebtn:hover svg {
   margin-left: 10px;
   -webkit-transition: 300ms;
   -o-transition: 300ms;
   transition: 300ms;
 }
-.whitebtn {
-  color: white;
-  padding: 12px 34px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 3px solid white;
-  margin-left: 20px;
-  -webkit-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-  font-weight: 200;
-}
+
 .aicon {
   position: relative;
   font-size: 25px;
@@ -490,6 +473,9 @@ p {
 @media (min-width: 1440px) {
   .main-container {
     margin-top: 2rem;
+  }
+  .illus-img {
+    width: 50rem;
   }
 }
 

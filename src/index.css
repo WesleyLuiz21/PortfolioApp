@@ -206,11 +206,12 @@ p {
   transition: 500ms;
 }
 .whitebtn:hover  {
-  border-color: red;
-  color: red;
+  background-color: #1C3157;
+  color: white;
   -webkit-transition: 500ms;
   -o-transition: 500ms;
   transition: 500ms;
+  border: 2px solid #1C3157;
 }
 .redbtn:hover  svg, .whitebtn:hover svg {
   margin-left: 10px;
@@ -219,17 +220,18 @@ p {
   transition: 300ms;
 }
 .whitebtn {
-  color: white;
+  color: #0E131C;
   padding: 13px 34px;
   -webkit-box-align: center;
   -ms-flex-align: center;
-   align-items: center;
+  align-items: center;
+  background-color: white;
   border: 2px solid white;
   margin-left: 20px;
   -webkit-transition: 500ms;
   -o-transition: 500ms;
   transition: 500ms;
-  font-weight: 200;
+  font-weight: 400;
 }
 .aicon {
   position: relative;
