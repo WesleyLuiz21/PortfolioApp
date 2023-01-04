@@ -85,9 +85,11 @@ p {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
+  position: relative;
+  top: 1rem;
 }
 #red_border {
-  height: 2px;
+  height: 4px;
   background-color: red;
   width: 13%;
 }
@@ -112,7 +114,7 @@ p {
  }
 .slideshow {
   padding-left: 20px;
-  border-left: 2px solid red;
+  border-left: 4px solid red;
   max-width: 270px;
   bottom: 100px;
   overflow: hidden;
@@ -177,7 +179,6 @@ p {
   font-size: 1.2rem;
 }
 .intro_buttons {
-  gap: 10px;
   -webkit-box-align: center;
   -ms-flex-align: center;
    align-items: center;
@@ -335,7 +336,7 @@ p {
     left: 0;
     margin: 0 auto;
   }
-  .me_photo {
+.me_photo {
     right: 0;
     z-index: 0;
     display: block;
