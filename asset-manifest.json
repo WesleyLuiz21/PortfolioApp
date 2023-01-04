@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioApp/static/css/main.bbf91a27.css",
-    "main.js": "/PortfolioApp/static/js/main.44443f2a.js",
+    "main.css": "/PortfolioApp/static/css/main.c53c79c4.css",
+    "main.js": "/PortfolioApp/static/js/main.0dad1884.js",
     "static/media/backgroundimage.png": "/PortfolioApp/static/media/backgroundimage.e75a465c8594861513e5.png",
     "static/media/ffsfsfs.png": "/PortfolioApp/static/media/ffsfsfs.cea81126e514815965a5.png",
     "static/media/wesley2.png": "/PortfolioApp/static/media/wesley2.875f8481978c4a940239.png",
@@ -9,16 +9,16 @@
     "static/media/art.png": "/PortfolioApp/static/media/art.a5dfa738cce07b980633.png",
     "static/media/art2.png": "/PortfolioApp/static/media/art2.a198611d5ecf87a72c65.png",
     "static/media/jsimg.png": "/PortfolioApp/static/media/jsimg.22c9315a223e114362f3.png",
-    "static/media/skills.svg": "/PortfolioApp/static/media/skills.bc30bac224fe0ed9ad7b9c5d0501d7c2.svg",
-    "static/media/contact.svg": "/PortfolioApp/static/media/contact.7005701604d03628088d2b56d88484fb.svg",
-    "static/media/goals.svg": "/PortfolioApp/static/media/goals.78c468284940c9fbbecd466b3fda5b50.svg",
-    "static/media/edu.svg": "/PortfolioApp/static/media/edu.28f4ce8ba7ab73ab23ca3b82837318df.svg",
+    "static/media/skills.svg": "/PortfolioApp/static/media/skills.08ddd80d94e3d00f27d52220f980588e.svg",
+    "static/media/contact.svg": "/PortfolioApp/static/media/contact.05292ca231c041d07f0675697f323e14.svg",
+    "static/media/goals.svg": "/PortfolioApp/static/media/goals.a3c692c0b0abfe182026d833622c6ef1.svg",
+    "static/media/edu.svg": "/PortfolioApp/static/media/edu.145c5d72d4a037bd7ee68f5ed1c36a44.svg",
     "index.html": "/PortfolioApp/index.html",
-    "main.bbf91a27.css.map": "/PortfolioApp/static/css/main.bbf91a27.css.map",
-    "main.44443f2a.js.map": "/PortfolioApp/static/js/main.44443f2a.js.map"
+    "main.c53c79c4.css.map": "/PortfolioApp/static/css/main.c53c79c4.css.map",
+    "main.0dad1884.js.map": "/PortfolioApp/static/js/main.0dad1884.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbf91a27.css",
-    "static/js/main.44443f2a.js"
+    "static/css/main.c53c79c4.css",
+    "static/js/main.0dad1884.js"
   ]
 }
