@@ -106,6 +106,10 @@ p {
   top: 50px;
   position: relative;
 }
+.main_text_index h2, .slide h2{
+  font-family: 'roboto';
+  font-weight: 400;
+ }
 .slideshow {
   padding-left: 20px;
   border-left: 2px solid red;

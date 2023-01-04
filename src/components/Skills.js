@@ -15,7 +15,7 @@ class Skills extends React.Component {
             <div className="main-container grid">
                 <div >
                 <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
-                   <h2>My Skills</h2>
+                   <h2>Skillset</h2>
                    <div id="red-border2"></div>
                    <div className="skills-containers flex">
                       <p className="btn-skills"><HiCheckCircle className="check"/> HTML</p>
