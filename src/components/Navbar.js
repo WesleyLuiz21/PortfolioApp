@@ -14,7 +14,6 @@ import pin from './icons/pin.png'
 function Navbar() {
     const name = 'Wesley Souza';
     const email = 'wesley_luiz2001@hotmail.com';
-    
 
     return (
         <header className="flex">
@@ -33,6 +32,7 @@ function Navbar() {
             </ul>
             </nav>
         </header>
+
     )
 };
 export default Navbar;

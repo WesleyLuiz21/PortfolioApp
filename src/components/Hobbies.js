@@ -25,8 +25,8 @@ class Hobbies extends React.Component {
                    <h2>Hobbies</h2>
                    <div id="red-border2"></div>
                    <div className="main-text hob-text">
-                     <p>When it comes to  Hobbies, I am that kind of person who always feel the need to keep moving or doing something, thefore I have so many Hobbies such as working out, travel, languages, reading and gaming.</p>
-                     <p>Though my main Hobbies are Graphic Design, Travel, Illustration and Digital Art.</p>
+                     <p>When it comes to  Hobbies, I am that kind of person who always feel the need to keep moving or doing something, therefore I have so many Hobbies such as working out, travel, languages, and gaming.</p>
+                     <p>Though my main Hobbies are Graphic Illustration and Digital Art.</p>
                      <p>Currently I speak English, Portuguese, Spanish and I am looking forward to learning Italian.</p>
                      <div className="flex">
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>

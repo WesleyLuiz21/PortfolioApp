@@ -26,9 +26,9 @@ class Goals extends React.Component {
                 </motion.div>
                 <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                    <div className="main-text">
-                     <p>My main goal is to start a career in the UK as a Web Developer as soon as possible to develop and put into practice the knowledge I have acquired and get pratical experience.</p>
-                     <p>I intend to work as a Frontend engineer as I am sure is the area that I stand out the most, although I'm also interested in backend/fullstack.</p>
-                     <p>Currently I am studying Frontend development, I am following the Frontend careerpath course at codecademy and soon I plan to  join a Web development bootcamp to begin my career as a Web developer.</p>
+                     <p>My goal is to start a career in the UK as a Web Developer. I aim to put into practice and expand the knowledge I have acquired and get pratical experience.</p>
+                     <p>I intend to work as a Frontend engineer as I am sure is the stack I stand out the most, although I'm also interested in backend/fullstack.</p>
+                     <p>Currently I am studying Frontend development, following the Frontend careerpath course at codecademy and the intro to Web Development at Code Institute.</p>
                    </div>
                 </motion.div>
                 </div>

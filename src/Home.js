@@ -19,11 +19,11 @@ const slidedata = [
     description: 'I am a Brazilian/Italian developer based in London, UK.'
   },
   {
-    title: 'Currently',
+    title: 'What I do?',
     description: 'At the moment I am studyng Front-End Development.'
   },
   {
-    title: 'Objectives',
+    title: 'Goals',
     description: 'My main goal is to create stunning interactive web applications.'
   }
 ];

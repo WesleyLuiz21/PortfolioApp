@@ -96,9 +96,6 @@ p {
   font-size: 2.5rem;
   margin-bottom: 0px;
 }
-.container {
-  margin-top: 2rem;
-}
 .mobile {
   animation: showMenu 300ms;
 }
@@ -116,7 +113,7 @@ p {
 }
 #red-border {
   height: 2px;
-  background-color: red;
+  background-color: var(--red-color);
   width: 13%;
 }
 #red-border2 {
@@ -200,15 +197,13 @@ p {
 .pt-item {
   color: white;
   max-width: 400px;
-  border-radius: 5px;
-  background-color: var(--blue-color);
+  background-color: #1c315759;
 }
 .pt-pad {
   padding: 15px;
 }
 .pt-img {
   width: 100%;
-  border-radius: 5px;
 }
 .pt-btn {
   border: none;
@@ -260,7 +255,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: 200;
+  font-weight: 400;
 }
 .redbtn:hover {
   color: red;
@@ -467,11 +462,11 @@ p {
     font-size: 1rem;
   }
   .container {
-    margin-top: g0px;
+    margin-top: 0px;
   }
 }
 @media (min-width: 1440px) {
-  .main-container {
+  .main-container, .container {
     margin-top: 2rem;
   }
   .illus-img {

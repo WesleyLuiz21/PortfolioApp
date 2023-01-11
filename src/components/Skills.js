@@ -34,8 +34,8 @@ class Skills extends React.Component {
                    </motion.div>
                    <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                    <div className="main-text">
-                     <p>Since I was infant I always loved computers and technology in general, I have been introduced to this  technologycal world when I was 7 years old and since then I developed a great passion in anything involving software and computing. Through my life I manage to get skills and knowledge from art and design to troubleshooting  and programming.</p>
-                     <p>As result of these skills, today I am a  creative and proactive person, willing to find solutions to all kinds of issues.</p>
+                     <p>Since childhood I always had a thing for computers and technology, I have been introduced to this  technologycal world when I was 7 years old and since then I developed a great passion in anything involving software and hardware. Through my life I manage to get skills and knowledge from art and design to troubleshooting  and programming.</p>
+                     <p>As result of these skills, today I am a creative and proactive person, willing to find solutions to all kinds of issues.</p>
                      <div className="flex">
                          <a href="https://drive.google.com/u/0/uc?id=1cdhKdBdtSicU5rmmVWuIaOTPMZ2gOYQf&export=download" className="redbtn flex">Download CV <BiRightArrowAlt className='aicon'/></a>
                          <a href="https://github.com/WesleyLuiz21" target='_blank' rel="noreferrer gi"className="whitebtn flex">Github <BiRightArrowAlt className='aicon'/></a>
