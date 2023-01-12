@@ -19,7 +19,7 @@ class Education extends React.Component {
                    <div id="red-border2"></div>
                    <div className="main-text">
                      <p>Before coming to the UK, I finished High School in Brazil, then I did a IESOL Course at Barnet and Southgate College in order to improve my English.</p>
-                     <p>Currently I am studying Front-End development. At the moment I am following the Frontend careerpath course at codecademy and so far I've been loving it.</p>
+                     <p>Currently I am studying Front-End development. I am following the Frontend careerpath course at codecademy and so far I've been loving it.</p>
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                      <img src={jsimg} alt='js-progamming' className='jsimg'></img>
                      </motion.div>

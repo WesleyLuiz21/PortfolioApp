@@ -19,12 +19,16 @@ const slidedata = [
     description: 'I am a Brazilian/Italian developer based in London, UK.'
   },
   {
-    title: 'What I do?',
-    description: 'At the moment I am studyng Front-End Development.'
+    title: 'What do I do?',
+    description: 'At the moment I am studying Front-End Development.'
   },
-  {
+  /*{
     title: 'Goals',
     description: 'My main goal is to create stunning interactive web applications.'
+  }, */ 
+  {
+    title: 'About',
+    description: `Currently, I'm focused in HTML, CSS, JS, jQuery, Bootstrap and ReactJS.`
   }
 ];
 
