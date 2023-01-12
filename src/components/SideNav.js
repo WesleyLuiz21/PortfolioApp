@@ -9,13 +9,14 @@ import { ImBook } from  "react-icons/im";
 import { ImTarget } from  "react-icons/im";
 import { ImFolderOpen } from  "react-icons/im";
 import { MdEmail } from  "react-icons/md";
-import { FaBookOpen } from  "react-icons/fa";
 import { CgMenuLeftAlt } from  "react-icons/cg";
 
 import { AiOutlineInstagram } from  "react-icons/ai";
 import { TbBrandLinkedin } from  "react-icons/tb";
 import { AiOutlineBehance } from  "react-icons/ai";
 import { MdClose } from "react-icons/md";
+import { HiPuzzle } from "react-icons/hi";
+
 
 
 
@@ -64,7 +65,7 @@ const contactPage = {
 }
 const hobbiesPage = {
   name: 'Hobbies',
-  icon: <FaBookOpen className="material-icons"/>,
+  icon: <HiPuzzle className="material-icons"/>,
   link: '/hobbies'
 }
 
@@ -141,7 +142,7 @@ const SideNav = ({ className, funcEvent }) => {
           
           <NavLink to={hobbiesPage.link} onClick={funcEvent} style={({isActive}) => ({color: isActive ? '#0E131C' : '#FFFFFF'})}  className="nav-container1" id="nav7">
             
-            <span><FaBookOpen className="material-icons"/></span>
+            <span><HiPuzzle className="material-icons"/></span>
             <span className="icon-text">Hobbies</span>
           </NavLink>
          </div>
