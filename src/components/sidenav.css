@@ -98,6 +98,10 @@
 @media (max-width:1440px) {
   .side-bar a {
     padding: 10px 10px 10px 32px;
+    font-size: 1rem;
+ }
+ .material-icons {
+  font-size: 2rem;
  }
 }
 @media (max-width:1300px) {

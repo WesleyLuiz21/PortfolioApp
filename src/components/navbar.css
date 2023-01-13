@@ -92,6 +92,11 @@ a , li {
 .email:hover {
     color: rgb(54, 161, 228);
 }
+@media (max-width: 1440px) {
+    nav {
+        font-size: 1rem !important;
+    }
+}
 @media (max-width:1300px) {
     header {
         display: none !important;

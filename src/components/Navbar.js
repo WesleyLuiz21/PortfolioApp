@@ -27,7 +27,7 @@ function Navbar() {
                 <li id="bar"></li>
                 <li>
                 <img src={pin} className='icons' alt='icon-email' width='39' height='39'></img>
-                <p>London - UK</p>
+                <p className='email'>London - UK</p>
                 </li>
             </ul>
             </nav>
