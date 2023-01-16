@@ -84,8 +84,8 @@ p {
   display: block;
 }
 .shadow {
-  -webkit-box-shadow: 0px 0px 4px black;
-   box-shadow: 0px 0px 4px black;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.562);
+   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.562);
 }
 .under {
   text-decoration: underline;
@@ -161,9 +161,6 @@ p {
   font-family: "roboto";
   cursor: pointer;
 }
-.detailsEdu a {
-  font-size: 1.3rem;
-}
 .detailsEdu summary {
   font-size: 1.3rem;
   text-decoration: none;
@@ -172,6 +169,15 @@ p {
   padding: 10px;
   background-color: var(--blue-color);
   margin: 0.6rem 0 0.6rem 0;
+}
+.op-education {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  padding: 0 10px;
+  margin: 0;
+}
+.op-education:hover {
+  text-decoration: underline;
 }
 .rectangle {
   position: absolute;
@@ -410,7 +416,7 @@ p {
   .close-btn {
     z-index: 11;
     position: fixed;
-    top: 25px;
+    top: 19px;
     left: 190px;
     background: none;
     border: none;
@@ -491,6 +497,9 @@ p {
     top: 30vh;
     /* testing */
   }
+  .op-education {
+    font-size: 1rem;
+  }
 }
 @media (min-width: 1440px) {
   .main-container, .container {
@@ -502,5 +511,6 @@ p {
   .detailsEdu details {
     max-width: 95%;
   }
+  
 }
 

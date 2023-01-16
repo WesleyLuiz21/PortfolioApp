@@ -9,7 +9,7 @@ export const projects = [
     },
     {
         title: 'Portfolio Page',
-        description:  'My first portfolio page. I have designed it using Figma and build with HTML, CSS3 and JavaScript.',
+        description:  'My first portfolio page. I have designed it using Figma/Photoshop and build with HTML, CSS3 and JavaScript.',
         image: 'https://i.imgur.com/1lAQMWz.png',
         link: 'https://wesleyluiz21.github.io/wesleyportifolio/',
         github: 'https://github.com/WesleyLuiz21/wesleyportifolio',

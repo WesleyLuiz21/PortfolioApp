@@ -12,32 +12,32 @@ const DetailsEdu = () => {
         <div className="detailsEdu">
         <details>
          <summary>Codecademy Courses</summary>
-         <a href="/">Frontend Engineer (in-progress)</a>
+         <a href="/" className="op-education">Frontend Engineer (in-progress)</a>
          <br/>
-         <a href="/">Javascript</a>
+         <a href="/" className="op-education">Javascript</a>
          <br/>
-         <a href="/">jQuery Course</a>
+         <a href="/" className="op-education">jQuery Course</a>
          <br/>
-         <a href="/">Bootstrap Course</a>
+         <a href="/" className="op-education">Bootstrap Course</a>
          <br/>
-         <a href="/">Intro to UI and UX</a>
+         <a href="/" className="op-education">Intro to UI and UX</a>
          <br/>
-         <a href="/">Color Design</a>
+         <a href="/" className="op-education">Color Design</a>
         </details>
         <details>
         <summary>FreeCodecamp Courses</summary>
-        <a href="/">Responsive Web Design (Aproximately 300 hours)</a>
+        <a href="https://www.freecodecamp.org/certification/WesleySouza/responsive-web-design" target="_blank" rel='noreferrer' className="op-education">Responsive Web Design (Aproximately 300 hours)</a>
         </details>
         <details>
         <summary>Code Institute Courses</summary>
-        <a href="/">Intro to Web Development (In-progress)</a>
+        <a href="/" className="op-education">Intro to Web Development (In-progress)</a>
         </details>
         <details>
         <summary>Extra</summary>
-        <p>Proeficient in Adobe Photoshop</p>
-        <p>Intermediate Knowledge of Figma</p>
-        <p>Intermediate Skills in Microsoft Office</p>
-        <p>Very familliar with Art and Design</p>
+        <p className="op-education">Proeficient in Adobe Photoshop</p>
+        <p className="op-education">Intermediate Knowledge of Figma</p>
+        <p className="op-education">Intermediate Skills in Microsoft Office</p>
+        <p className="op-education">Very familliar with Art and Design</p>
         </details>
        </div>
     )
