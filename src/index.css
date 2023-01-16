@@ -290,13 +290,13 @@ p {
   }
 }
 @media (max-width: 1440px) {
-  h1 {
+  .main_text_index h1 {
     font-size: 2.5rem;
   }
-  h2 {
+  .main_text_index h2 {
     font-size: 1.4rem;
   }
-  p {
+  .main_text_index p {
     font-size: 1rem;
   }
   .me_photo {
@@ -361,7 +361,7 @@ p {
     display: block;
     top: 0;
     min-width: 100px;
-    max-width: 577px;
+    width: 500px;
   }
 }
 @media (max-width: 700px) {
@@ -369,7 +369,7 @@ p {
     padding-top: 200px;
   }
   .me_photo {
-    max-width: 440px;
+    width: 440px;
   }
   .main_text_index{
     top: 500px;

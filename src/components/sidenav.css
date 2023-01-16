@@ -52,7 +52,7 @@
   font-size: 1.2rem;
 }
 .mobile {
-   width: 15.3rem;
+   width: 15.6rem;
    z-index: 9;
 }
 .side-bar a {
@@ -111,4 +111,8 @@
     display: flex;
  } 
 }
-  
+@media (max-width:700px) {
+  .mobile {
+    width: 80%;
+  }
+}
