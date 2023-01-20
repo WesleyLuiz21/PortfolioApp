@@ -37,7 +37,7 @@ body {
 }
 /* universal selectors -------------------------- */
 
-a , p , h1 , h2 , li {
+a , p , h1 , h2 , h3, li {
   color: white;
 }
 a {
@@ -58,7 +58,8 @@ h2 {
 }
 h3 {
   font-size: 1.4rem;
-  font-family: 'arial';
+  font-family: 'roboto';
+  font-weight: 400;
 }
 p {
   font-family: 'roboto';
@@ -322,6 +323,15 @@ p {
   -webkit-transition: 500ms;
   -o-transition: 500ms;
   transition: 500ms;
+}
+.tech-ul {
+  margin: 0;
+  padding-inline-start: 10px;
+}
+.tech-ul > li {
+  margin-left: 10px;
+  list-style-type: disc;
+  display: list-item;
 }
 
 @-webkit-keyframes transitionIn {

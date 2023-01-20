@@ -12,6 +12,7 @@ import Goals from "./components/Goals";
 import Contact from "./components/contact";
 import Hobbies from "./components/Hobbies";
 import Portfolio from './components/portfolio';
+import Info from "./components/Info";
 
 const main = ReactDOM.createRoot(document.getElementById('main'));
 
@@ -33,6 +34,7 @@ class App extends React.Component {
              <Route path='/contact' element={<Contact />}/>
              <Route path='/hobbies' element={<Hobbies />}/>
              <Route path='/portfolio' element={<Portfolio />}/>
+             <Route path='/info' element={<Info/>}/>
              <Route path="*" component={NotFound} />
           </Routes>
       </BrowserRouter>
