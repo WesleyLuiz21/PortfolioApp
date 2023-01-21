@@ -16,7 +16,7 @@ import { TbBrandLinkedin } from  "react-icons/tb";
 import { AiOutlineBehance } from  "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { HiPuzzle } from "react-icons/hi";
-import { AiFillSetting } from "react-icons/ai";
+import { BsFillInfoCircleFill } from "react-icons/bs"
 
 
 
@@ -71,7 +71,7 @@ const hobbiesPage = {
 }
 const InfoPage = {
   name: 'Website Info',
-  icon: <AiFillSetting className="material-icons"/>,
+  icon: <BsFillInfoCircleFill className="material-icons"/>,
   link: '/Info'
 }
 
