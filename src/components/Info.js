@@ -12,7 +12,7 @@ class Info extends React.Component {
             <div className="main-container grid">
                 <div >
                 <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
-                   <h2>Technical Info</h2>
+                   <h2>Website Info</h2>
                    <div id="red-border2"></div>
                    <p>React Version 18.1.0</p>
                    <h3>Libraries Used:</h3>
@@ -24,9 +24,9 @@ class Info extends React.Component {
                    </ul>
                    <h3>Extra:</h3>
                    <ul className="tech-ul">
-                   <li>Designed with Figma and Adobe Photoshop.</li>
-                   <li>I have designed the images and illustrations specially for this website.</li>
-                   <li>I have decided to not use Bootstrap in this App, only custom CSS ( I regreat doing it).</li>
+                   <li>Website designed on Figma and Adobe Photoshop.</li>
+                   <li>All images and illustrations were designed specially for this website.</li>
+                   <li>I have decided to not use Bootstrap in this App, only custom CSS (I kind of regreat doing it &#128549;).</li>
                    </ul>
                    </motion.div>
                 </div>
