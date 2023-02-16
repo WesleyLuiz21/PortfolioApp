@@ -21,6 +21,14 @@ export const projects = [
         link: 'https://wesleyluiz21.github.io/Quote-Generator/',
         github: 'https://github.com/WesleyLuiz21/Quote-Generator',
     },
+    {
+        title: 'Beef it Up Steakhouse',
+        description:  'Project made for the final assessment at Code Institute. built with HTML, Bootstrap, CSS3 and JavaScript.',
+        image: 'https://i.imgur.com/8MOXlhT.png',
+        link: 'https://wesleyluiz21.github.io/BeefitUp-Restaurant-Project/index.html',
+        github: 'https://github.com/WesleyLuiz21/BeefitUp-Restaurant-Project',
+    },
+    
     
     
 ];

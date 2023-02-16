@@ -51,9 +51,6 @@ class Portfolio extends React.Component {
                    </div>
                 </motion.div>
                 </div>
-                <div className="newcontainer">
-                   <div className="rectangle"></div>
-                </div>
             </div>
         );
     }
