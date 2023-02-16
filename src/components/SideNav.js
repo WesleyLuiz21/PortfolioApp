@@ -16,6 +16,7 @@ import { TbBrandLinkedin } from  "react-icons/tb";
 import { AiOutlineBehance } from  "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { HiPuzzle } from "react-icons/hi";
+import { AiFillSetting } from "react-icons/ai";
 
 
 
@@ -68,7 +69,11 @@ const hobbiesPage = {
   icon: <HiPuzzle className="material-icons"/>,
   link: '/hobbies'
 }
-
+const InfoPage = {
+  name: 'Website Info',
+  icon: <AiFillSetting className="material-icons"/>,
+  link: '/Info'
+}
 
 function Sidebar() {
   const [isShown, setIsShown] = useState(false);
@@ -145,6 +150,11 @@ const SideNav = ({ className, funcEvent }) => {
             <span><HiPuzzle className="material-icons"/></span>
             <span className="icon-text">Hobbies</span>
           </NavLink>
+          <NavLink to={InfoPage.link} onClick={funcEvent} style={({isActive}) => ({color: isActive ? '#0E131C' : '#FFFFFF'})}  className="nav-container1" id="nav7">
+            
+          <span>{InfoPage.icon}</span>
+          <span className="icon-text">Website Info</span>
+        </NavLink>
          </div>
           <div className="flex nav-div">
           <a href="https://www.instagram.com/wesley.luiz21/?hl=en" className="nav-container1" id="nav8" target='_blank' rel="noreferrer">
