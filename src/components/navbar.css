@@ -101,5 +101,9 @@ a , li {
     header {
         display: none !important;
     }
+    .contact-btn {
+        padding: 10px 16px;
+        font-size: 1rem !important;
+    }
 }
 
