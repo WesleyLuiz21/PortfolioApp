@@ -25,8 +25,9 @@ class Info extends React.Component {
                    <h3>Extra:</h3>
                    <ul className="tech-ul">
                    <li>Website designed on Figma and Adobe Photoshop.</li>
-                   <li>All images and illustrations were designed specially for this website.</li>
+                   <li>All illustrations images were designed specially for this website.</li>
                    <li>I have decided to not use Bootstrap in this App, only custom CSS (I kind of regreat doing it &#128549;).</li>
+                   <li>Website Design inspired by my first Portfolio project, I wanted to keep the design while improving it and doing something entirely new in the same time.</li>
                    </ul>
                    </motion.div>
                 </div>

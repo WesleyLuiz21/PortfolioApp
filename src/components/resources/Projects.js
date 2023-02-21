@@ -28,6 +28,13 @@ export const projects = [
         link: 'https://wesleyluiz21.github.io/BeefitUp-Restaurant-Project/index.html',
         github: 'https://github.com/WesleyLuiz21/BeefitUp-Restaurant-Project',
     },
+    {
+        title: 'Infinite Scroll',
+        description:  'Small Project to pratice working with APIs. built with HTML, Bootstrap, CSS3, JavaScript and the Unsplash API.',
+        image: 'https://i.imgur.com/HFGKZEE.png',
+        link: 'https://wesleyluiz21.github.io/Infinite-Scroll/',
+        github: 'https://github.com/WesleyLuiz21/Infinite-Scroll',
+    },
     
     
     
