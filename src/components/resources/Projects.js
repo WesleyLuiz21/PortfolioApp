@@ -37,7 +37,7 @@ export const projects = [
     },
     {
         title: 'Picture In Picure',
-        description:  'Another Small Project to pratice working with APIs. built with HTML, CSS3, JavaScript and the Unsplash API.',
+        description:  'Another Small Project to pratice working with APIs. built with HTML, CSS3, JavaScript.',
         image: 'https://i.imgur.com/ouSDCSB.png',
         link: 'https://wesleyluiz21.github.io/Picture-In-Picture/',
         github: 'https://github.com/WesleyLuiz21/Picture-In-Picture',

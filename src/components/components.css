@@ -227,12 +227,19 @@ p {
   max-width: 375px;
   padding-bottom: 15px;
   background-color: #1d263a;
+
 }
 .pt-text {
   margin: 10px 0px;
 }
 .pt-pad {
   padding: 0px 15px;
+  flex-direction: column;
+  flex-flow: column nowrap;
+  height: 260px;
+}
+.pt-btn {
+  margin-top: auto;
 }
 .pt-img {
   width: 100%;
