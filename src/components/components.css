@@ -553,4 +553,7 @@ p {
   .main-container-pt {
     width: 95%;
   }
+  .skills-containers {
+    display: none;
+  }
 }
