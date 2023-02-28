@@ -91,6 +91,12 @@ p {
 .under {
   text-decoration: underline;
 }
+.hidden-mob {
+  display: none;
+}
+.desktop-img {
+  display: block;
+}
 
 /* other pages ------------------------------------ */
 .main-container  h2, .main-container-pt h2 {
@@ -325,12 +331,14 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 3px solid white;
+  background-color: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-weight: 400;
   justify-content: center;
   border-radius: 2rem;
+  color: #0E131C;
 }
 
 .redbtn:hover, .btn-pt-red:hover {
@@ -340,8 +348,9 @@ p {
   transition: 200ms;
 }
 .btn-pt-white:hover {
-  background-color: white;
-  color: black;
+  background-color: var(--blue-color);
+  border-color: var(--blue-color);
+  color: white;
   transition: 200ms;
 }
 
@@ -623,6 +632,8 @@ p {
   }
   .main-container-pt, .main-container {
     width: 95%;
+    padding-bottom: 0px;
+    margin-bottom: 0;
   }
   .skills-containers {
     display: none;
@@ -663,5 +674,14 @@ p {
   .detailsEdu details {
     border-radius: 2rem;
     padding: 16px;
+  }
+  .hidden-mob {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    padding: 0;
+  }
+  .desktop-img {
+    display: none;
   }
 }
