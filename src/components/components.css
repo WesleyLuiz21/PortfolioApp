@@ -170,7 +170,7 @@ p {
   text-decoration: none;
 }
 .detailsEdu details {
-  padding: 10px;
+  padding: 15px;
   background-color: var(--blue-color);
   margin: 0.6rem 0 0.6rem 0;
 }
@@ -208,6 +208,8 @@ p {
 .london {
   color: rgb(54, 161, 228);
   font-size: 1.3rem;
+  margin: 10px 0px;
+  
 }
 .hob-text {
   margin: 0px;
@@ -224,21 +226,27 @@ p {
 }
 
 .pt-item {
-  max-width: 375px;
+  flex-wrap: nowrap;
+  flex-shrink: 2;
+  max-width: 400px;
+  flex-basis: 400px auto;
   padding-bottom: 15px;
   background-color: #1d263a;
 
 }
 .pt-text {
-  margin: 10px 0px;
+  margin: 10px 0px 0px 0px;
 }
 .pt-pad {
   padding: 0px 15px;
   flex-direction: column;
   flex-flow: column nowrap;
-  height: 260px;
+  height: 310px;
+  text-align: center;
 }
 .pt-btn {
+  flex-direction: column;
+  gap: 1rem;
   margin-top: auto;
 }
 .pt-img {
@@ -251,6 +259,7 @@ p {
   font-size: 1.3rem;
   padding: 0px 5px 5px 0px;
   cursor: pointer;
+  justify-content: center;
 }
 .pt-btn-active {
   border-bottom: 1px solid var(--red-color);
@@ -296,14 +305,70 @@ p {
           align-items: center;
   font-weight: 400;
 }
-.redbtn:hover {
+.btn-pt-red {
+  text-decoration: none;
+  padding: 13px 34px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: red;
+  border: 2px solid red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  justify-content: center;
+  border-radius: 2rem;
+}
+.btn-pt-white {
+  text-decoration: none;
+  padding: 13px 34px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 3px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+.redbtn:hover, .btn-pt-red:hover {
   color: red;
   background-color: white;
   border-color: white;
-  transition: 500ms;
+  transition: 200ms;
+}
+.btn-pt-white:hover {
+  background-color: white;
+  color: black;
+  transition: 200ms;
 }
 
-.redbtn:hover  svg, .whitebtn:hover svg {
+.whitebtn {
+  color: #0E131C;
+  padding: 13px 34px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid white;
+  margin-left: 20px;
+  -webkit-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+  font-weight: 400;
+}
+.whitebtn:hover  {
+  background-color: var(--blue-color);
+  color: white;
+  -webkit-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+  border: 2px solid var(--blue-color);
+}
+
+.redbtn:hover  svg, .whitebtn:hover svg, .btn-pt-red:hover svg, .btn-pt-white:hover svg {
   margin-left: 10px;
   -webkit-transition: 300ms;
   -o-transition: 300ms;
@@ -422,6 +487,12 @@ p {
   .main-container-pt {
     width: 92%;
     margin-left: 9%;
+  }
+  .pt-item {
+    max-width: 385px;
+  }
+  .pt-pad {
+    height: 275px;
   }
 }
 @media (min-width: 1440px) {
@@ -550,10 +621,47 @@ p {
   .close-btn {
     left: 250px;
   }
-  .main-container-pt {
+  .main-container-pt, .main-container {
     width: 95%;
   }
   .skills-containers {
     display: none;
+  }
+  .pt-item {
+    max-width: 400px;
+  }
+  .pt-pad {
+    height: 290px;
+  }
+  .main-container-pt, .main-container {
+    text-align: center;
+  }
+  #red-border2 {
+    margin: 0 auto;
+    width: 20%;
+  }
+  .pt-container {
+    margin-top: 0;
+  }
+  .divcont {
+    justify-content: center;
+  }
+  .idk {
+    flex-direction: column;
+  }
+  #btn-hobbies {
+    justify-content: center;
+    border-radius: 2rem;
+  }
+  .tech-ul {
+    text-align: left;
+  }
+  .skills-btn-div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .detailsEdu details {
+    border-radius: 2rem;
+    padding: 16px;
   }
 }

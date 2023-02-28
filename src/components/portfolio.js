@@ -13,10 +13,10 @@ const Items = ({ title, description, image, link, github }) => {
          <img className="pt-img" src={image} alt='projects'></img>
          <div className="pt-pad flex">
             <h3 className="pt-text">{title}</h3>
-            <p>{description}</p>
+            <p className="pt-text">{description}</p>
             <div className="flex pt-btn">
-                <a href={link}  target='_blank' rel="noreferrer" className="redbtn flex">Live <BiRightArrowAlt className='aicon'/></a>
-                <a href={github} target='_blank' rel="noreferrer" className="whitebtn flex">Github <BiRightArrowAlt className='aicon'/></a>
+                <a href={link}  target='_blank' rel="noreferrer" className="btn-pt-red flex">Live <BiRightArrowAlt className='aicon'/></a>
+                <a href={github} target='_blank' rel="noreferrer" className="btn-pt-white flex">Github <BiRightArrowAlt className='aicon'/></a>
              </div>
          </div>
     </div>

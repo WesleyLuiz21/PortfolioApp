@@ -4,7 +4,6 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
 import image1 from './resources/images/ffsfsfs.png'
-import image2 from './resources/images/art.png'
 import image3 from './resources/images/art2.png'
 import image4 from './resources/images/art3.png'
 import { BiRightArrowAlt } from  "react-icons/bi";
@@ -28,9 +27,9 @@ class Hobbies extends React.Component {
                      <p>When it comes to  Hobbies, I am that kind of person who always feel the need to keep moving or doing something.</p>
                      <p>My main Hobbies are Graphic Illustration and Digital Art.</p>
                      <p>Currently I speak English, Portuguese, Spanish and I am looking forward to learning Italian.</p>
-                     <div className="flex">
+                     <div className="flex idk">
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
-                      <a href="https://www.artstation.com/wesley-souza" target='_blank' rel="noreferrer" className="redbtn flex">Artstation <BiRightArrowAlt className='aicon'/></a>
+                      <a href="https://www.artstation.com/wesley-souza" id="btn-hobbies" target='_blank' rel="noreferrer" className="redbtn flex">Artstation <BiRightArrowAlt className='aicon'/></a>
                      </motion.div>
                      </div>
                    </div>
@@ -40,9 +39,6 @@ class Hobbies extends React.Component {
                     <Splide aria-label="My Artworks" className="imgSlide">
                         <SplideSlide>
                             <img src={image1} className='img-hobbies' alt='image1' />
-                        </SplideSlide>
-                        <SplideSlide>
-                            <img src={image2} className='img-hobbies' alt='image2' />
                         </SplideSlide>
                         <SplideSlide>
                             <img src={image3} className='img-hobbies' alt='image3' />

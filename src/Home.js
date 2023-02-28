@@ -42,8 +42,8 @@ class MainText extends React.Component {
          <div id='red_border'></div>
          <h2>{titleh2}</h2>
          <div className='intro_buttons flex'>
-           <NavLink className='redbtn flex' to='/contact'>Contact <BiRightArrowAlt className={styles.aicon}/></NavLink>
-           <NavLink className='whitebtn flex' to='/portfolio'>Portfolio <BiRightArrowAlt className={styles.aicon}/></NavLink>
+           <NavLink className='red_btn flex' to='/contact'>Contact <BiRightArrowAlt className={styles.aicon}/></NavLink>
+           <NavLink className='white_btn flex' to='/portfolio'>Portfolio <BiRightArrowAlt className={styles.aicon}/></NavLink>
          </div>
       </motion.div>
     </div>
