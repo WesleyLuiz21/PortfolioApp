@@ -37,7 +37,7 @@ const sidebarOut = () => {                                             // hover 
 const homePage = {
   name: 'Home',
   icon: <FaHome className="material-icons"/>,
-  link: '/PortfolioApp'
+  link: '/'
 }
 const skillsPage = {
   name: 'Skills',
