@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-import {  BrowserRouter, Route, Routes, HashRouter} from 'react-router-dom';
+import {  Route, Routes, HashRouter} from 'react-router-dom';
 import { AnimatePresence } from "framer-motion";
 
 import Navbar from './components/Navbar';
@@ -23,11 +23,11 @@ class App extends React.Component {
  render() {
     return (
       <AnimatePresence>
-      <BrowserRouter>
+      <HashRouter>
           <Sidebar />
           <Navbar />
           <Routes>
-             <Route path='/PortfolioApp'  element={<MainPage />}/>
+             <Route path='/PortfolioApp' element={<MainPage />}/>
              <Route path='/skills' element={<Skills />}/>
              <Route path='/education' element={<Education />}/>
              <Route path='/goals' element={<Goals />}/>
@@ -37,7 +37,7 @@ class App extends React.Component {
              <Route path='/info' element={<Info/>}/>
              <Route path="*" component={NotFound} />
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
       </AnimatePresence>
     );
   }
