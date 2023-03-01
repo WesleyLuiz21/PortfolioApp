@@ -225,7 +225,7 @@ p {
   width: 100%;
 }
 .pt-container {
-  margin-top: 2rem;
+  margin-top: 0px;
   gap: 20px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -234,12 +234,12 @@ p {
 
 .pt-item {
   flex-wrap: nowrap;
-  flex-shrink: 2;
-  max-width: 400px;
-  flex-basis: 400px auto;
+  flex-shrink: 1;
+  /*max-width: 400px; */
   padding-bottom: 15px;
   background-color: #1d263a;
-
+  flex-basis: 400px;
+  flex-grow: 1;
 }
 .pt-text {
   margin: 10px 0px 0px 0px;
@@ -500,14 +500,14 @@ p {
     font-size: 1rem;
   }
   .main-container-pt {
-    width: 92%;
+    width: 89%;
     margin-left: 9%;
-  }
-  .pt-item {
-    max-width: 385px;
   }
   .pt-pad {
     height: 275px;
+  }
+  .pt-item {
+    flex-basis: 385px;
   }
 }
 @media (min-width: 1440px) {
@@ -519,6 +519,9 @@ p {
   }
   .detailsEdu details {
     max-width: 95%;
+  }
+  .pt-item {
+    max-width: 400px;
   }
   
 }
@@ -644,9 +647,6 @@ p {
   .skills-containers {
     display: none;
   }
-  .pt-item {
-    max-width: 400px;
-  }
   .pt-pad {
     height: 300px;
   }
@@ -656,9 +656,6 @@ p {
   #red-border2 {
     margin: 0 auto;
     width: 20%;
-  }
-  .pt-container {
-    margin-top: 0;
   }
   .divcont {
     justify-content: center;

@@ -42,6 +42,14 @@ export const projects = [
         link: 'https://wesleyluiz21.github.io/Picture-In-Picture/',
         github: 'https://github.com/WesleyLuiz21/Picture-In-Picture',
     },
+    {
+        title: 'Joker Teller',
+        description:  'A Small Project with APIs, this time using 2 APIs and combining them. built with HTML, CSS3, JavaScript.',
+        image: 'https://i.imgur.com/heJ9zZy.png',
+        link: 'https://wesleyluiz21.github.io/Joker-Teller/',
+        github: 'https://github.com/WesleyLuiz21/Joker-Teller',
+    },
+    
     
     
     
