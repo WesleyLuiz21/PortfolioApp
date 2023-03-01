@@ -76,11 +76,14 @@ a , li {
    border-radius: 5rem;
    border: none;
    cursor: pointer;
+   font-weight: 400;
+   color: red;
 }
 .contact-btn > a{
     display: block;
     border: none;
-    color: black;
+    color: red;
+    font-size: 1rem !important;
    
 }
 .londonframe {
@@ -103,7 +106,6 @@ a , li {
     }
     .contact-btn {
         padding: 10px 16px;
-        font-size: 1rem !important;
     }
 }
 

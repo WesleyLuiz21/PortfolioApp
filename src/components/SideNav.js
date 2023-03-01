@@ -91,7 +91,7 @@ function Sidebar() {
       <div className="nav-mobile shadow">
        <div className="nav-content">
          <button  id="name-mobi" onClick={handleClick}><CgMenuLeftAlt/></button>
-         <button className="contact-btn"><NavLink to={contactPage.link}>Contact</NavLink></button>
+         <button className="contact-btn"><NavLink to={contactPage.link}>contact</NavLink></button>
        </div>
       </div>
       <SideNav className='desktop' />
