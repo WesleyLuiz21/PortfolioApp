@@ -49,6 +49,13 @@ export const projects = [
         link: 'https://wesleyluiz21.github.io/Joker-Teller/',
         github: 'https://github.com/WesleyLuiz21/Joker-Teller',
     },
+    {
+        title: 'Under Construction',
+        description:  'not ready yet.',
+        image: 'https://i.imgur.com/heJ9zZy.png',
+        link: 'https://wesleyluiz21.github.io/Joker-Teller/',
+        github: 'https://github.com/WesleyLuiz21/Joker-Teller',
+    },
     
     
     
