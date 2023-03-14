@@ -207,7 +207,7 @@ p {
 }
 .white_btn:hover  {
   background-color: white;
-  color: black;
+  color: var(--dark-blue-color);
   -webkit-transition: 200ms;
   -o-transition: 200ms;
   transition: 200ms;
