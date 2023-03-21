@@ -27,7 +27,7 @@ class Info extends React.Component {
                    <li>Website designed on Figma and Adobe Photoshop.</li>
                    <li>All illustrations images were designed specially for this website.</li>
                    <li>I have decided to not use Bootstrap in this App, only custom CSS (I kind of regreat doing it &#128549;).</li>
-                   <li>Website Design inspired by my first Portfolio project, I wanted to keep the design while improving it and doing something entirely new in the same time.</li>
+                   <li>Website Design inspired by my first <a className="links" href="https://wesleyluiz21.github.io/wesleyportifolio/" target="_blank" rel="noreferrer">Portfolio project</a>, I wanted to keep the design while improving it and doing something entirely new in the same time.</li>
                    </ul>
                    </motion.div>
                 </div>

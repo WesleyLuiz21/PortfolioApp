@@ -13,10 +13,10 @@ import { CgMenuLeftAlt } from  "react-icons/cg";
 
 import { AiOutlineInstagram } from  "react-icons/ai";
 import { TbBrandLinkedin } from  "react-icons/tb";
-import { AiOutlineBehance } from  "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { HiPuzzle } from "react-icons/hi";
-import { BsFillInfoCircleFill } from "react-icons/bs"
+import { BsFillInfoCircleFill } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 
 
 
@@ -169,10 +169,10 @@ const SideNav = ({ className, funcEvent }) => {
             <span className="icon-text">Linkedin</span>
           </a>
           
-          <a href="https://www.behance.net/wesleyluiz7" className="nav-container1" id="nav10" target='_blank' rel="noreferrer">
+          <a href="https://github.com/WesleyLuiz21" className="nav-container1" id="nav10" target='_blank' rel="noreferrer">
             
-            <span><AiOutlineBehance className="material-icons"/></span>
-            <span className="icon-text">Behace</span>
+            <span><AiFillGithub className="material-icons"/></span>
+            <span className="icon-text">Github</span>
           </a>
           </div>
 

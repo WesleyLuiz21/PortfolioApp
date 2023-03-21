@@ -263,6 +263,7 @@ p {
 }
 .pt-img {
   width: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 .pt-btn {
   border: none;
@@ -508,7 +509,11 @@ p {
   }
   .pt-item {
     flex-basis: 385px;
+    border-radius: 10px 10px;
   }
+}
+.links {
+  color: rgb(54, 161, 228);
 }
 @media (min-width: 1440px) {
   .main-container, .container {

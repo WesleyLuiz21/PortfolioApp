@@ -8,13 +8,6 @@ export const projects = [
         github: 'https://github.com/WesleyLuiz21/Blogr',
     },
     {
-        title: 'Portfolio Page',
-        description:  'My first portfolio page. I have designed it using Figma/Photoshop and build with HTML, CSS3 and JavaScript.',
-        image: 'https://i.imgur.com/UEzWbbv.png',
-        link: 'https://wesleyluiz21.github.io/wesleyportifolio/',
-        github: 'https://github.com/WesleyLuiz21/wesleyportifolio',
-    },
-    {
         title: 'Quote Generator',
         description:  'My first project using an API to get quotes and display them nicely. built with HTML, CSS3 and JavaScript.',
         image: 'https://i.imgur.com/7N4szBT.png',
@@ -22,18 +15,25 @@ export const projects = [
         github: 'https://github.com/WesleyLuiz21/Quote-Generator',
     },
     {
-        title: 'Beef it Up Steakhouse',
-        description:  'Project made for the final assessment at Code Institute. built with HTML, Bootstrap, CSS3 and JavaScript.',
-        image: 'https://i.imgur.com/8MOXlhT.png',
-        link: 'https://wesleyluiz21.github.io/BeefitUp-Restaurant-Project/index.html',
-        github: 'https://github.com/WesleyLuiz21/BeefitUp-Restaurant-Project',
-    },
-    {
         title: 'Infinite Scroll',
         description:  'Small Project to pratice working with APIs. built with HTML, CSS3, JavaScript and the Unsplash API.',
         image: 'https://i.imgur.com/HFGKZEE.png',
         link: 'https://wesleyluiz21.github.io/Infinite-Scroll/',
         github: 'https://github.com/WesleyLuiz21/Infinite-Scroll',
+    },
+    {
+        title: 'Chat WIT',
+        description:  'Project done with TeamAI for the March 2023 Code Institute Hackaton. We managed to get 3rd placed!',
+        image: 'https://i.imgur.com/F8XOvM7.png',
+        link: 'https://women-in-tech-hackathon.herokuapp.com//',
+        github: 'https://github.com/WesleyLuiz21/women-in-tech-hackathon',
+    },
+    {
+        title: 'Beef it Up Steakhouse',
+        description:  'Project made for the final assessment at Code Institute. built with HTML, Bootstrap, CSS3 and JavaScript.',
+        image: 'https://i.imgur.com/8MOXlhT.png',
+        link: 'https://wesleyluiz21.github.io/BeefitUp-Restaurant-Project/index.html',
+        github: 'https://github.com/WesleyLuiz21/BeefitUp-Restaurant-Project',
     },
     {
         title: 'Picture In Picure',
@@ -53,8 +53,8 @@ export const projects = [
         title: 'Under Construction',
         description:  'not ready yet.',
         image: 'https://i.imgur.com/heJ9zZy.png',
-        link: 'https://wesleyluiz21.github.io/Joker-Teller/',
-        github: 'https://github.com/WesleyLuiz21/Joker-Teller',
+        link: '/#',
+        github: '/#',
     },
     
     
