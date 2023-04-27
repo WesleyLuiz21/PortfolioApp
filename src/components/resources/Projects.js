@@ -50,11 +50,11 @@ export const projects = [
         github: 'https://github.com/WesleyLuiz21/Joker-Teller',
     },
     {
-        title: 'Under Construction',
-        description:  'not ready yet.',
-        image: 'https://i.imgur.com/heJ9zZy.png',
-        link: '/#',
-        github: '/#',
+        title: 'VeteransTalk',
+        description:  'Project done with CookiesArmy team for the April 2023 Code Institute Hackathon.',
+        image: 'https://i.imgur.com/qs1nBqd.png',
+        link: 'https://veteranstalk.onrender.com/',
+        github: 'https://github.com/adammkeane/team1-hackathon-april-2023',
     },
     
     
