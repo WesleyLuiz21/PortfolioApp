@@ -28,7 +28,7 @@ const slidedata = [
   }, */ 
   {
     title: 'About',
-    description: `Currently, I'm focused in HTML, CSS, JS, jQuery, Bootstrap and ReactJS.`
+    description: `Currently, my stack is based of HTML, CSS, JS, jQuery, Bootstrap and ReactJS.`
   }
 ];
 

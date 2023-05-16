@@ -54,7 +54,8 @@ class Education extends React.Component {
                    <div id="red-border2"></div>
                    <div className="main-text">
                      <p>Before moving to the UK, I completed my high school education in Brazil. To improve my English, I then pursued an IESOL course at Barnet and Southgate College.</p>
-                     <p>Now, I am focused on studying Front-End development and I am currently enrolled in the Frontend Career Path course on Codecademy. I'm truly enjoying the learning journey so far.</p>
+                     <p>Now, I am focused on studying Front-End development  at Codecademy and I am participating in Hackathons in order to gain valuable experience and while contribuiting with other learners.</p>
+                     <p>I am currently enrolled in the Frontend Career Path course on Codecademy and I'm truly enjoying the learning journey so far.</p>
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                      <DetailsEdu/>
                      </motion.div>
