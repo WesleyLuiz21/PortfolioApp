@@ -27,7 +27,7 @@ const slidedata = [
     description: 'My main goal is to create stunning interactive web applications.'
   }, */ 
   {
-    title: 'About',
+    title: 'Tech Stack',
     description: `Currently, my stack is based of HTML, CSS, JS, jQuery, Bootstrap and ReactJS.`
   }
 ];

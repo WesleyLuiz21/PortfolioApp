@@ -2,7 +2,7 @@ import React from "react";
 import './components.css'
 import { motion } from "framer-motion"
 
-import { ReactComponent as SkillSvg } from './resources/illustrations/skills.svg';
+import { ReactComponent as SetSvg } from './resources/illustrations/settings.svg';
 
 
 
@@ -10,7 +10,7 @@ class Info extends React.Component {
     render() {
         return (
             <div className="main-container grid">
-                <div >
+                <div className="info" >
                 <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
                    <h2>Website Info</h2>
                    <div id="red-border2"></div>
@@ -33,7 +33,7 @@ class Info extends React.Component {
                    </motion.div>
                 </div>
                 <motion.div initial={{opacity: 0, x: -500}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.8,delay: 0.8}}>
-                  <SkillSvg className="illus-img"/>
+                  <SetSvg className="illus-img"/>
                 </motion.div>
                 <div className="newcontainer">
                    <div className="rectangle"></div>
