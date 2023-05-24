@@ -30,7 +30,7 @@ const DetailsEdu = () => {
         </details>
         <details>
         <summary>Code Institute Courses</summary>
-        <p className="op-education">Intro to Web Development (In-progress)</p>
+        <a href="https://drive.google.com/file/d/1sAO_9cx7p3gNtxEdOaELuIUONglRL7W0/view?usp=sharing" target="_blank" rel="noreferrer" className="op-education">User Centric Frontend Development</a>
         </details>
         <details>
         <summary>Extra</summary>
