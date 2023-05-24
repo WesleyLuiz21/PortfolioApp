@@ -9,8 +9,9 @@ const ImgSvg = <EduSvg className="illus-img"/>;
 const DetailsEdu = () => {
     return (
         <div className="detailsEdu">
+        <h3>Certificates:</h3>
         <details>
-         <summary>Codecademy Courses</summary>
+         <summary>Codecademy</summary>
          <p className="op-education">Frontend Engineer (in-progress)</p>
          <a href="https://www.codecademy.com/profiles/Wesley_luiz/certificates/705dcb15de0da4dd9d9fc4f3274b430e" target='_blank' rel="noreferrer" className="op-education">Javascript</a>
          <br/>
@@ -25,11 +26,11 @@ const DetailsEdu = () => {
          <a href="https://www.codecademy.com/profiles/Wesley_luiz/certificates/3a62023b0054dc793edc0adecd715fd7" target='_blank' rel="noreferrer" className="op-education">Responsive Design</a>
         </details>
         <details>
-        <summary>FreeCodeCamp Courses</summary>
+        <summary>FreeCodeCamp</summary>
         <a href="https://www.freecodecamp.org/certification/WesleySouza/responsive-web-design" target="_blank" rel='noreferrer' className="op-education">Responsive Web Design (Aproximately 300 hours)</a>
         </details>
         <details>
-        <summary>Code Institute Courses</summary>
+        <summary>Code Institute</summary>
         <a href="https://drive.google.com/file/d/1sAO_9cx7p3gNtxEdOaELuIUONglRL7W0/view?usp=sharing" target="_blank" rel="noreferrer" className="op-education">User Centric Frontend Development</a>
         </details>
         <details>
