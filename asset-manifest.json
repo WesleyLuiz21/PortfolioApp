@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/PortfolioApp/static/css/main.da808f2b.css",
-    "main.js": "/PortfolioApp/static/js/main.66d849ee.js",
+    "main.js": "/PortfolioApp/static/js/main.ad3f51d4.js",
     "static/media/backgroundimage.png": "/PortfolioApp/static/media/backgroundimage.e75a465c8594861513e5.png",
     "static/media/ffsfsfs.png": "/PortfolioApp/static/media/ffsfsfs.cea81126e514815965a5.png",
     "static/media/wesley2.png": "/PortfolioApp/static/media/wesley2.875f8481978c4a940239.png",
     "static/media/art3.png": "/PortfolioApp/static/media/art3.0fd1e11adcf6f2bd6c31.png",
     "static/media/art2.png": "/PortfolioApp/static/media/art2.a198611d5ecf87a72c65.png",
     "static/media/skills.svg": "/PortfolioApp/static/media/skills.08ddd80d94e3d00f27d52220f980588e.svg",
-    "static/media/contact.svg": "/PortfolioApp/static/media/contact.13f4a862ea6299db9688735f887fe3a5.svg",
-    "static/media/settings.svg": "/PortfolioApp/static/media/settings.60ddb069c660878dded84ac9c5ef23f6.svg",
+    "static/media/contact.svg": "/PortfolioApp/static/media/contact.8f984e7637ea1620aeabfbf89bf67bf5.svg",
+    "static/media/settings.svg": "/PortfolioApp/static/media/settings.6e637d364985b4eceacacc8b8e890c6e.svg",
     "static/media/goals.svg": "/PortfolioApp/static/media/goals.a3c692c0b0abfe182026d833622c6ef1.svg",
     "static/media/edu.svg": "/PortfolioApp/static/media/edu.145c5d72d4a037bd7ee68f5ed1c36a44.svg",
     "index.html": "/PortfolioApp/index.html",
     "main.da808f2b.css.map": "/PortfolioApp/static/css/main.da808f2b.css.map",
-    "main.66d849ee.js.map": "/PortfolioApp/static/js/main.66d849ee.js.map"
+    "main.ad3f51d4.js.map": "/PortfolioApp/static/js/main.ad3f51d4.js.map"
   },
   "entrypoints": [
     "static/css/main.da808f2b.css",
-    "static/js/main.66d849ee.js"
+    "static/js/main.ad3f51d4.js"
   ]
 }
