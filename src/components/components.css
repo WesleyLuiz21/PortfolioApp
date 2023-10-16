@@ -420,11 +420,13 @@ p {
 .tech-ul {
   margin: 0;
   padding-inline-start: 10px;
+  list-style-position: inside;
 }
 .tech-ul > li {
   margin-left: 10px;
   list-style-type: disc;
   display: list-item;
+  font-size: 1.3rem;
 }
 
 @-webkit-keyframes transitionIn {
@@ -674,7 +676,13 @@ p {
     padding: 10px 34px;
   }
   .tech-ul {
-    text-align: left;
+    text-align: center;
+    list-style-position: inside 
+
+  }
+  .tech-ul  li {
+    font-size: 1.3rem;
+    list-style-position: inside 
   }
   .skills-btn-div {
     flex-direction: column;

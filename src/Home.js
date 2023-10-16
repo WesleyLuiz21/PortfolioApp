@@ -20,7 +20,7 @@ const slidedata = [
   },
   {
     title: 'What do I do?',
-    description: 'At the moment I am studying Front-End Development.'
+    description: 'At the moment I am studying Computing at Solent University.'
   },
   /*{
     title: 'Goals',

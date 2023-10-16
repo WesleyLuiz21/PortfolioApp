@@ -39,6 +39,7 @@ const DetailsEdu = () => {
         <p className="op-education">Intermediate Knowledge of Figma</p>
         <p className="op-education">Intermediate Skills in Microsoft Office</p>
         <p className="op-education">Very familliar with Art and Design</p>
+        <a href="https://drive.google.com/file/d/1SOOc4vA8JETe82lUGPQJhDN8fiMeD94o/view?usp=sharing" target="_blank" rel="noreferrer" className="op-education">Level 3 Award in Emergency First Aid at Work</a>
         </details>
        </div>
     )
@@ -55,8 +56,7 @@ class Education extends React.Component {
                    <div id="red-border2"></div>
                    <div className="main-text">
                      <p>Before moving to the UK, I completed my high school education in Brazil. To improve my English, I then pursued an IESOL course at Barnet and Southgate College.</p>
-                     <p>Now, I am focused on studying Front-End development  at Codecademy and I am participating in Hackathons in order to gain valuable experience while contribuiting with other learners.</p>
-                     <p>I am currently enrolled in the Frontend Career Path course on Codecademy and I'm truly enjoying the learning journey so far.</p>
+                     <p>I'm currently pursuing a Computing degree at Solent University, driven by my participation in Hackathons and Frontend Development studies. I'm determined to take my education further, which is why I enrolled at Solent University.</p>
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                      <DetailsEdu/>
                      </motion.div>
