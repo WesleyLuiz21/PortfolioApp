@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from 'react-dom/client';
 import {  Route, Routes, HashRouter} from 'react-router-dom';
 import { AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
+import Loader from "./components/Loader"; // Import the Loader component
 
 import Navbar from './components/Navbar';
 import Sidebar from './components/SideNav';
@@ -19,6 +21,8 @@ const main = ReactDOM.createRoot(document.getElementById('main'));
 function NotFound() {
   return <>You have landed on a page that doesn't exist</>;
 }
+
+/*
 class App extends React.Component {
  render() {
     return (
@@ -41,10 +45,64 @@ class App extends React.Component {
       </AnimatePresence>
     );
   }
-}
+} 
 
 main.render(
   <React.StrictMode>
     <App />
 </React.StrictMode>
+);
+*/
+
+
+
+
+// ... other imports ...
+
+
+
+class App extends React.Component {
+  state = {
+    loading: true // Initial loading state
+  };
+
+  componentDidMount() {
+    // Simulate a loading time with a timeout
+    setTimeout(() => {
+      this.setState({ loading: false });
+    }, 2000); // Adjust the time as needed
+  }
+
+  render() {
+    if (this.state.loading) {
+      return <Loader />; // Show the loader while loading
+    }
+
+    return (
+      <AnimatePresence>
+        <HashRouter>
+          <Sidebar />
+          <Navbar />
+          <Routes>
+             <Route exact path='/' element={<MainPage />}/>
+             <Route path='/skills' element={<Skills />}/>
+             <Route path='/education' element={<Education />}/>
+             <Route path='/goals' element={<Goals />}/>
+             <Route path='/contact' element={<Contact />}/>
+             <Route path='/hobbies' element={<Hobbies />}/>
+             <Route path='/portfolio' element={<Portfolio />}/>
+             <Route path='/info' element={<Info/>}/>
+             <Route path="*" component={NotFound} />
+          </Routes>
+        </HashRouter>
+      </AnimatePresence>
+    );
+  }
+}
+
+
+main.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
