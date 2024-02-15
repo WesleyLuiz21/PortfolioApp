@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioApp/static/css/main.801654ad.css",
-    "main.js": "/PortfolioApp/static/js/main.c27a419e.js",
+    "main.css": "/PortfolioApp/static/css/main.2a433dad.css",
+    "main.js": "/PortfolioApp/static/js/main.1b510f2a.js",
     "static/media/backgroundimage.png": "/PortfolioApp/static/media/backgroundimage.e75a465c8594861513e5.png",
     "static/media/ffsfsfs.png": "/PortfolioApp/static/media/ffsfsfs.cea81126e514815965a5.png",
     "static/media/wesley2.png": "/PortfolioApp/static/media/wesley2.875f8481978c4a940239.png",
@@ -13,11 +13,11 @@
     "static/media/goals.svg": "/PortfolioApp/static/media/goals.feddda4648303fde3d0a3b1de2b5eb70.svg",
     "static/media/edu.svg": "/PortfolioApp/static/media/edu.6ae9f72e3b0e5ee630ebc4f93a847537.svg",
     "index.html": "/PortfolioApp/index.html",
-    "main.801654ad.css.map": "/PortfolioApp/static/css/main.801654ad.css.map",
-    "main.c27a419e.js.map": "/PortfolioApp/static/js/main.c27a419e.js.map"
+    "main.2a433dad.css.map": "/PortfolioApp/static/css/main.2a433dad.css.map",
+    "main.1b510f2a.js.map": "/PortfolioApp/static/js/main.1b510f2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.801654ad.css",
-    "static/js/main.c27a419e.js"
+    "static/css/main.2a433dad.css",
+    "static/js/main.1b510f2a.js"
   ]
 }
