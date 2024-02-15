@@ -54,13 +54,6 @@ main.render(
 );
 */
 
-
-
-
-// ... other imports ...
-
-
-
 class App extends React.Component {
   state = {
     loading: true // Initial loading state

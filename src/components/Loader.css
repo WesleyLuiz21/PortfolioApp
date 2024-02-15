@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: white; /* or any background color you prefer */
+    background: #0E131C; /* or any background color you prefer */
   }
   
   .spinner {
@@ -13,7 +13,8 @@
     border-radius:50%;
     background: 
       radial-gradient(farthest-side,red 95%,#0000) 50% 1px/44px 44px no-repeat,
-      radial-gradient(farthest-side,#0000 calc(100% - 48px),#E4E4ED 0);
+      radial-gradient(farthest-side,#0000 calc(100% - 48px),#9c9c9c 0);
     animation:s9 2s infinite linear;
+
   }
   @keyframes s9 {to{transform: rotate(1turn)}}
