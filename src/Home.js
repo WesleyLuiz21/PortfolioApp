@@ -11,15 +11,15 @@ import { BiRightArrowAlt } from  "react-icons/bi";
 
 
 
-const titleh2 = 'Front-End Developer & Website Designer';
+const titleh2 = '';
 
 const slidedata = [
   {
     title: 'Who Am I?',
-    description: 'I am a Brazilian/Italian developer based in London, UK.'
+    description: 'I am a Brazilian computing student based in London, UK.'
   },
   {
-    title: 'What do I do?',
+    title: 'What I do?',
     description: 'At the moment I am studying Computing at Solent University.'
   },
   /*{
