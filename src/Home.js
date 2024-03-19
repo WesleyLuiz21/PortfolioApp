@@ -11,7 +11,7 @@ import { BiRightArrowAlt } from  "react-icons/bi";
 
 
 
-const titleh2 = '';
+const titleh2 = 'Web Developer & UI/UX Student';
 
 const slidedata = [
   {
