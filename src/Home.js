@@ -16,7 +16,7 @@ const titleh2 = '';
 const slidedata = [
   {
     title: 'Who Am I?',
-    description: 'I am a Brazilian computing student based in London, UK.'
+    description: 'I am a Brazilian/Italian developer based in London, UK.'
   },
   {
     title: 'What I do?',
