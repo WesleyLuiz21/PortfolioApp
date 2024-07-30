@@ -35,10 +35,10 @@ const DetailsEdu = () => {
         </details>
         <details>
         <summary>Extra</summary>
-        <p className="op-education">Proeficient in Adobe Photoshop</p>
-        <p className="op-education">Intermediate Knowledge of Figma</p>
-        <p className="op-education">Intermediate Skills in Microsoft Office</p>
-        <p className="op-education">Very familliar with Art and Design</p>
+        <p className="op-education">Adobe Photoshop CC</p>
+        <p className="op-education">Figma</p>
+        <p className="op-education">Microsoft Office Package</p>
+        <p className="op-education">Art and Design</p>
         <a href="https://drive.google.com/file/d/1SOOc4vA8JETe82lUGPQJhDN8fiMeD94o/view?usp=sharing" target="_blank" rel="noreferrer" className="op-education">Level 3 Award in Emergency First Aid at Work</a>
         </details>
        </div>
