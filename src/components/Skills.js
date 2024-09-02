@@ -31,15 +31,14 @@ class Skills extends React.Component {
                       <p className="btn-skills"><HiCheckCircle className="check"/> User Interface</p>
                       <p className="btn-skills"><HiCheckCircle className="check"/> User Experience</p>
                       <p className="btn-skills"><HiCheckCircle className="check"/> Troubleshooting</p>
-                    
-                      <p className="btn-skills"><HiCheckCircle className="check"/> System Management</p>
+                      <p className="btn-skills"><HiCheckCircle className="check"/> System Management</p> 
                       
                    </div>
                    </motion.div>
                    <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                    <div className="main-text">
-                     <p>Ever since I was introduced to the world of technology at the age of 7, I have been passionate about all things related to computers, software, and hardware. Over time, I have acquired a diverse skill set that encompasses everything from troubleshooting to programming, as well as design and art.</p>
-                     <p>As a result, I am a creative and proactive problem-solver, always striving to find solutions to every kind of challenge in life and work.</p>
+                     <p>Since I was introduced to computers and technology at the age of 7, I quickly became passionated about all things related to technology, software and hardware. Over time, I have been improving my abilities that goes from troubleshooting, to designing and coding.</p>
+                     <p>As a result, I am a creative and proactive problem-solver, always striving to find solutions to every kind of challenge in life and work!</p>
                      <div className="flex skills-btn-div">
                          <a href="https://drive.google.com/u/0/uc?id=13h3cMlOGhXqZUlR7w-J7kNd9tzuQfI0o&export=download" target="_blank" rel="noreferrer" className="red_btn flex">Download CV <BiRightArrowAlt className='aicon'/></a>
                          <a href="https://github.com/WesleyLuiz21" target='_blank' rel="noreferrer gi"className="white_btn flex">Github <BiRightArrowAlt className='aicon'/></a>
