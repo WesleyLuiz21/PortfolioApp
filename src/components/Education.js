@@ -56,7 +56,11 @@ class Education extends React.Component {
                    <div className="main-text">
                      <h3>Early Years in Brazil</h3>
                      <p>I am originally from Brazil and before moving to the UK, I completed my high school education there.</p>
-                     <p>I'm currently pursuing a Computing degree at Solent University, driven by my participation in Hackathons and Frontend Development studies. I'm determined to take my education further, which is why I enrolled at Solent University.</p>
+                     <h3>Transition to the UK</h3>
+                     <p>After moving to the UK, I spent two years (2019 and 2020) at Barnet and Southgate College taking an IESOL course, where I improved my English, ICT, math skills and understanding of the UK culture.</p>
+                     <p>In 2021, I made the difficult decision to pause my studies and enter the job market to support my familly.
+                     Although I was not in full-time education, I took IT and coding courses to keep learning on the go.</p>
+                     <p>In 2022, I then enrolled in a User-Centric Frontend Development course offered by Code Institute and funded by the Mayor of London, where I strengthened my design and web development skills. I also participated in a few hackathons hosted by Code Institute, which was really fun!</p>
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                      <DetailsEdu/>
                      </motion.div>
