@@ -50,12 +50,12 @@ class Education extends React.Component {
         return (
             
             <div className="main-container grid">
-                <div >
+                <div>
                 <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
-                   <h2>Education</h2>
-                   <div id="red-border2"></div>
+                   <h2>Resume</h2>
                    <div className="main-text">
-                     <p>Before moving to the UK, I completed my high school education in Brazil. To improve my English, I then pursued an IESOL course at Barnet and Southgate College.</p>
+                     <h3>Early Years in Brazil</h3>
+                     <p>I am originally from Brazil and before moving to the UK, I completed my high school education there.</p>
                      <p>I'm currently pursuing a Computing degree at Solent University, driven by my participation in Hackathons and Frontend Development studies. I'm determined to take my education further, which is why I enrolled at Solent University.</p>
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                      <DetailsEdu/>
