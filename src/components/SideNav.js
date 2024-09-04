@@ -45,9 +45,9 @@ const skillsPage = {
   link: '/skills'
 }
 const eduPage = {
-  name: 'Education',
+  name: 'Resume',
   icon: <ImBook className="material-icons"/>,
-  link: '/education'
+  link: '/Resume'
 }
 const goalsPage = {
   name: 'Goals',
