@@ -40,7 +40,7 @@ body {
 }
 /* universal selectors -------------------------- */
 
-a , p , h1 , h2 , h3, li {
+a , p , h1 , h2 , h3, h4, li {
   color: white;
 }
 a {
@@ -63,6 +63,11 @@ h3 {
   font-size: 1.5rem;
   font-family: 'roboto';
   font-weight: 400;
+}
+h4 {
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', sans-serif;
+
 }
 p {
   font-family: 'Lato';
@@ -124,6 +129,10 @@ p {
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
 }
+.main-container h3 {
+  color: #153f89;
+  font-weight: 600;
+}
 #red-border {
   height: 2px;
   background-color: var(--red-color);
@@ -160,6 +169,13 @@ p {
   height: 100%;
   overflow: hidden;
   z-index: -1;
+}
+.resume-uni {
+  margin-left: 10px;
+}
+.resume-uni > p {
+  margin: 10px;
+  color: #7f8391;
 }
 .overlay {
   position: absolute;

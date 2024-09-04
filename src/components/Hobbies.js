@@ -10,8 +10,6 @@ import { BiRightArrowAlt } from  "react-icons/bi";
 import { motion } from "framer-motion"
 
 
-
-
 class Hobbies extends React.Component {
     render() {
         
