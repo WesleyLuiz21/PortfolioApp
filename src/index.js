@@ -79,7 +79,7 @@ class App extends React.Component {
           <Routes>
              <Route exact path='/' element={<MainPage />}/>
              <Route path='/skills' element={<Skills />}/>
-             <Route path='/education' element={<Education />}/>
+             <Route path='/resume' element={<Education />}/>
              <Route path='/goals' element={<Goals />}/>
              <Route path='/contact' element={<Contact />}/>
              <Route path='/hobbies' element={<Hobbies />}/>
