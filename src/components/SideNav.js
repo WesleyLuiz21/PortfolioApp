@@ -124,7 +124,7 @@ const SideNav = ({ className, funcEvent }) => {
           <NavLink to={eduPage.link} onClick={funcEvent} style={({isActive}) => ({color: isActive ? '#0E131C' : '#FFFFFF'})}  className="nav-container1" id="nav3">
             
             <span><ImBook className="material-icons"/></span>
-            <span className="icon-text">Education</span>
+            <span className="icon-text">{eduPage.name}</span>
           </NavLink>
          
           <NavLink to={goalsPage.link} onClick={funcEvent} style={({isActive}) => ({color: isActive ? '#0E131C' : '#FFFFFF'})}   className="nav-container1" id="nav4">
