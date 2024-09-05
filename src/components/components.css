@@ -267,7 +267,6 @@ p {
   flex-direction: column;
   flex-flow: column nowrap;
   height: 310px;
-  text-align: center;
 }
 .pt-pad h3 {
   font-size: 1.5rem;
