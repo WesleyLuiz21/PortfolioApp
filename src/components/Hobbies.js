@@ -15,12 +15,10 @@ class Hobbies extends React.Component {
         
         return (
             
-            
             <div className="main-container grid">
                 <div >
                 <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
                    <h2>Hobbies</h2>
-                   <div id="red-border2"></div>
                    <div className="main-text hob-text">
                      <p>I am that kind of person who always likes to stay busy, and my main hobbies reflect that. I enjoy working on graphic illustrations and creating digital art.</p>
                      <p> Additionally, I speak multiple languages including English, Portuguese, Spanish and I am looking forward to learning Italian.</p>

@@ -16,11 +16,11 @@ class Goals extends React.Component {
                 <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
                    <h2>Goals</h2>
                    <div className="skills-containers flex">
-                    <p className="btn-skills"><HiCheckCircle className="check"/> Front-End</p>
-                    <p className="btn-skills"><HiCheckCircle className="check"/> Back-End</p>
+                    <p className="btn-skills"><HiCheckCircle className="check"/> Full-Stack Development</p>
                     <p className="btn-skills"><HiCheckCircle className="check"/> Art/Design</p>
-                    <p className="btn-skills"><HiCheckCircle className="check"/> Web Development</p>
                     <p className="btn-skills"><HiCheckCircle className="check"/> Web Design</p>
+                    <p className="btn-skills"><HiCheckCircle className="check"/> Project Management</p>
+                    <p className="btn-skills"><HiCheckCircle className="check"/> Project Management</p>
                    </div>
                 </motion.div>
                 <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
