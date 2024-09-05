@@ -9,7 +9,7 @@ const ImgSvg = <EduSvg className="illus-img"/>;
 const DetailsEdu = () => {
     return (
         <div className="detailsEdu">
-        <h3>These are certificates I have obteined over the years:</h3>
+        <h3>These are certificates I have obtained over the years:</h3>
         <details>
          <summary>Codecademy</summary>
          <p className="op-education">Frontend Engineer (in-progress)</p>

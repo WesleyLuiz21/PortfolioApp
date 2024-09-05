@@ -17,14 +17,12 @@ class Contact extends React.Component {
                 <div >
                 <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                    <h2>Get in touch</h2>
-                   <div id="red-border2"></div>
                      <div className="main-text">
                          <p>To reach me, feel free to contact me by email:</p>
                          <div className="flex divcont">
                              <img src={emailIcon} class='icons' alt='icon-email' width='39' height='39'></img>
                              <a className="email london" href="mailto: wesley_luiz2001@hotmail.com">{email}</a>
                          </div>
-                         <p>Currently living in:</p>
                          <div className="flex divcont">
                             <img src={pin} class='icons' alt='icon-email' width='39' height='39'></img>
                           <p className="london">London - UK</p>

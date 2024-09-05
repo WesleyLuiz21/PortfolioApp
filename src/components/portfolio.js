@@ -42,9 +42,8 @@ class Portfolio extends React.Component {
                 <div >
                 <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
                    <h2>Portfolio</h2>
-                   <div id="red-border2"></div>
                    <div className="main-text ">
-                     <p>Currently, I am dedicated to developing various projects to showcase my abilities as a web developer.<br/> Here are some of the projects that I have been working on:</p>
+                     <p>Currently, I am developing various projects to showcase my abilities.<br/> Here are some of the projects that I have been working on:</p>
                      <motion.div initial={{opacity: 0, x: -400}} animate={{opacity: 1, x:0}}  exit={{opacity: 0, x:100}} transition={{duration: 0.5,delay: 0.5}}>
                        <ItemsList projects={projects}/>                     
                    </motion.div>

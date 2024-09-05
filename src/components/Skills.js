@@ -26,7 +26,7 @@ class Skills extends React.Component {
                       <p className="btn-skills"><HiCheckCircle className="check"/> Art/Design</p>
                       <p className="btn-skills"><HiCheckCircle className="check"/> Figma</p>
                       <p className="btn-skills"><HiCheckCircle className="check"/> Photoshop</p>
-                      <p className="btn-skills"><HiCheckCircle className="check"/> Illustration</p>
+                      <p className="btn-skills"><HiCheckCircle className="check"/> Hardware</p>
                       <p className="btn-skills"><HiCheckCircle className="check"/> User Interface</p>
                       <p className="btn-skills"><HiCheckCircle className="check"/> User Experience</p>
                       <p className="btn-skills"><HiCheckCircle className="check"/> Troubleshooting</p>
