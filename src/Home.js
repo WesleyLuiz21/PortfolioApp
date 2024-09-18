@@ -16,11 +16,11 @@ const titleh2 = 'Web Developer & UI/UX Student';
 const slidedata = [
   {
     title: 'Who Am I?',
-    description: 'I am a Brazilian/Italian developer based in London, UK.'
+    description: 'I am a Brazilian/Italian Computing Student based in London, UK.'
   },
   {
     title: 'What I do?',
-    description: 'At the moment I am studying Computing at Solent University.'
+    description: 'I am studying Computing at Solent University.'
   },
   /*{
     title: 'Goals',
@@ -117,8 +117,6 @@ class MainPage extends React.Component {
          <motion.div initial={{opacity: 0, x: -200}} animate={{opacity: 1, x:0, animationDelay:2}} exit={{opacity: 0, x:100}} transition={{duration: 0.4}}>
            <p className='intro_p'> Hello!</p>
            <h1>I'm Wesley Souza</h1>
-           <div id='red_border'></div>
-           <h2>{titleh2}</h2>
             <div className='intro_buttons flex'>
              <NavLink className='redbtn flex' to='/contact'>Contact <BiRightArrowAlt className={styles.aicon}/></NavLink>
              <NavLink className='whitebtn flex' to='/portfolio'>Portfolio <BiRightArrowAlt className={styles.aicon}/></NavLink>
