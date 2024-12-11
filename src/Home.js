@@ -15,22 +15,22 @@ const titleh2 = 'Web Developer & UI/UX Student';
 
 const slidedata = [
   {
-    title: 'Who Am I?',
-    description: 'I am a Brazilian/Italian Computing Student based in London, UK.'
+    title: 'Who I Am?',
+    description: 'I am a Computer Science Student based in London'
   },
   {
     title: 'What I do?',
-    description: 'I am studying Computing at Solent University.'
+    description: 'I currently work as an End User & Asset Analyst.'
   },
   /*{
     title: 'Goals',
     description: 'My main goal is to create stunning interactive web applications.'
-  }, */ 
+  }, 
   {
     title: 'Tech Stack',
     description: `Currently, my stack is based of HTML, CSS, JS, jQuery, Bootstrap and ReactJS.`
-  }
-];
+  } */
+]; 
 
 class MainText extends React.Component {
   render() {
